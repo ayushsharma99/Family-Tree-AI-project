@@ -13,3 +13,8 @@ def grandparent(a, b):
 def sibling(a, b):
     temp = var()
     return conde((parent(temp,a), parent(temp,b)))
+    
+# Check if m is n's uncle
+def uncle(a,b):
+    temp=var()
+    return conde((father(temp,a),grandparent(temp,b)))
