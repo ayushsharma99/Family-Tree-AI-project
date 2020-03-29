@@ -18,3 +18,18 @@ def sibling(a, b):
 def uncle(a,b):
     temp=var()
     return conde((father(temp,a),grandparent(temp,b)))
+
+if __name__=='__main__':
+    father=Relation()
+    mother=Relation()
+    
+    with open('relationships.json') as f:
+        d=json.loads(f.read())
+
+    for item in d['father']:
+        facts(father,(list(item.keys())[0],list(item.values())[0]))
+
+    for item in d['mother']:
+        facts(mother,(list(item.keys())[0],list(item.values())[0]))
+
+    a=var()
