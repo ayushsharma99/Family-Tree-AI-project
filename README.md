@@ -33,3 +33,10 @@ if __name__=='__main__':
         facts(mother,(list(item.keys())[0],list(item.values())[0]))
 
     a=var()
+    
+    # Suresh's children
+    name='Suresh'
+    output=run(0,a,father(name,a))
+    print("\nList of " + name + "'s children:")
+    for item in output:
+        print(item)
