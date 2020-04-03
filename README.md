@@ -40,3 +40,18 @@ if __name__=='__main__':
     print("\nList of " + name + "'s children:")
     for item in output:
         print(item)
+        
+   # Mahesh's mother
+    name='Mahesh'
+    output=run(0,a,mother(a,name))
+    print("\n" + name + "'s mother:\n" + output)
+
+    # Naresh's parents 
+    name='Naresh'
+    output=run(0,a,parent(a,name))
+    print("\nList of " + name + "'s parents:")
+    for item in output:
+        print(item)
+        
+        
+
