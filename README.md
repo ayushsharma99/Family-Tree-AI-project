@@ -34,7 +34,7 @@ if __name__=='__main__':
 
     a=var()
     
-    # Suresh's children
+   # Suresh's children
     name='Suresh'
     output=run(0,a,father(name,a))
     print("\nList of " + name + "'s children:")
@@ -46,11 +46,33 @@ if __name__=='__main__':
     output=run(0,a,mother(a,name))
     print("\n" + name + "'s mother:\n" + output)
 
-    # Naresh's parents 
+   # Naresh's parents 
     name='Naresh'
     output=run(0,a,parent(a,name))
     print("\nList of " + name + "'s parents:")
     for item in output:
+        print(item)
+        
+   # Manish's grandparents 
+    name='Manish'
+    output=run(0,a,grandparent(a,name))
+    print("\nList of " + name + "'s grandparents:")
+    for item in output:
+        print(item)
+
+   # Mohini's grandchildren 
+    name='Mohini'
+    output=run(0,a,grandparent(name,a))
+    print("\nList of " + name + "'s grandchildren:")
+    for item in output:
+        print(item)
+
+   # Deepak's siblings 
+    name='Deepak'
+    output=run(0,a,sibling(a,name))
+    siblings=[a for a in output if a != name]
+    print("\nList of " + name + "'s siblings:")
+    for item in siblings:
         print(item)
         
         
