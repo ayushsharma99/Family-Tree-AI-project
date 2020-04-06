@@ -1,0 +1,57 @@
+{
+      "father": 
+      
+[
+ 
+{"Suresh": "Mahesh"},
+            
+{"Suresh": "Deepak"},
+            
+{"Suresh": "Naresh"},
+            
+{"Mahesh": "Chandan"},
+            
+{"Mahesh": "Sita"},
+            
+{"Deepak": "Manish"},
+            
+{"Deepak": "Tanya"},
+            
+{"Deepak": "Rita"},
+            
+{"Deepak": "Nitin"},
+            
+{"Deepak": "Puneet"},
+            
+{"Naresh": "Shalu"}
+      ],
+      
+"mother": 
+      
+[
+            
+{"Mohini": "Mahesh"},
+            
+{"Mohini": "Deepak"},
+            
+{"Mohini": "Naresh"},
+            
+{"Sweta": "Sita"},
+            
+{"Sweta": "Chandan"},
+   
+{"Payal": "Manish"},
+          
+{"Payal": "Tanya"},
+            
+{"Payal": "Rita"},
+            
+{"Payal": "Nitin"},
+            
+{"Payal": "Puneet"},
+            
+{"Lata": "Shalu"}
+      ]
+
+}
+
