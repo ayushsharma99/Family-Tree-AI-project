@@ -75,5 +75,23 @@ if __name__=='__main__':
     for item in siblings:
         print(item)
         
+   # Tanya's uncles
+    name='Tanya'
+    name_father=run(0,a,father(a,name))[0]
+    output=run(0,a,uncle(a,name))
+    output=[a for a in output if a!= name_father]
+    print("\nList of " + name + "'s uncles:")
+    for item in output:
+        print(item)
+
+   # All spouses
+    m,n,o=var(),var(),var()
+    output=run(0,(m,n),(father,m,o),(mother,n,o))
+    print("\nList of all spouses:")
+    for item in output:
+        print('Husband:', item[0], '<==> Wife:', item[1])
+     
+
+        
         
 
