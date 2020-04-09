@@ -24,7 +24,6 @@ if __name__=='__main__':
     mother=Relation()   
 f=open("C:\\Users\\ayush sharma\\Desktop\\relationships.json")
 d=json.loads(f.read())
-    #d=["father","mother"]
 for item in d['father']:
     facts(father,(list(item.keys())[0],list(item.values())[0]))
 
